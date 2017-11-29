@@ -1,0 +1,12 @@
+.mCS-scroll-bar .mCSB_scrollTools {
+    width: 7px;
+}
+
+.mCS-scroll-bar .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #999;
+    border-radius: 0;
+}
+
+.mCS-scroll-bar .mCSB_scrollTools .mCSB_draggerRail {
+    background: none;
+}

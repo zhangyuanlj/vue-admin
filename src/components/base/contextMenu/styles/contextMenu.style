@@ -1,0 +1,19 @@
+.c-context-menu {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+    z-index: 999;
+}
+
+.c-context-menu a, .c-context-menu a:visited {
+    display: block;
+    color: #495060;
+    font-size: 12px;
+    padding: 7px 16px;
+    transition: background .2s ease-in-out;
+}
+
+.c-context-menu a:hover {
+    background-color: #f3f3f3;
+}

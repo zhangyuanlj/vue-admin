@@ -1,0 +1,154 @@
+@import 'base.less';
+@import 'reset.less';
+@import 'global.less';
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #efefef;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #999;
+}
+
+.c-layout {
+    padding-top: 60px;
+}
+
+.c-layout-head {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.c-layout-head .logo {
+    float: left;
+    width: 250px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px;
+}
+
+.c-layout-head .menu {
+    float: right;
+}
+
+.c-layout-head .ivu-menu-horizontal.ivu-menu-light:after {
+    background: none;
+}
+
+.c-layout-left, .c-layout-right {
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.c-layout-left {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    width: 240px;
+    background-color: #393F4F;
+    z-index: 600;
+}
+
+.c-layout-right {
+    position: relative;
+    margin-left: 240px;
+}
+
+.c-layout-head .user-menu .ivu-icon {
+    margin-right: 5px;
+}
+
+.c-layout-head .user-menu-con {
+    width: 224px;
+    height: 214px;
+}
+
+.c-layout-head .user-image, .c-layout-head .user-info {
+    width: 176px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.c-layout-head .user-image {
+    text-align: center;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.c-layout-head .user-image img {
+    display: block;
+    width: 58px;
+    height: 58px;
+    margin: 0 auto;
+}
+
+.c-layout-head .user-info p {
+    color: #4a4a4a;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.c-layout-head .user-info span {
+    color: #a5a5a5;
+    margin-right: 15px;
+}
+
+.c-layout-right .con-wrapper {
+    padding: 20px;
+}
+
+.c-layout-breadcrumb {
+    padding: 20px 20px 0;
+}
+
+.c-layout-con {
+    height: 1000px;
+    background-color: #fff;
+    margin: 0 20px 20px;
+}
+
+.c-go-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #2d8cf0;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 100;
+    display: none;
+    .arrow {
+        .icon {
+            color: #fff;
+            font-size: 30px;
+            line-height: 50px;
+        }
+    }
+    .text {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50px;
+        height: 50px;
+        color: #fff;
+        font-size: 14px;
+        background-color: #2d8cf0;
+        padding-top: 3px;
+        display: none;
+    }
+}
+
+.c-go-top:hover {
+    .text {
+        display: block;
+    }
+}

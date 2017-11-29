@@ -1,0 +1,123 @@
+/*
+ * 树目录
+ * author:张渊
+ * modifyTime:2015-11-19
+ */
+
+.c-treeview-li {
+    font-size: 0;
+    white-space: nowrap;
+    line-height: 0;
+    margin-bottom: 5px;
+}
+
+.c-treeview-a, .c-treeview-fold, .c-treeview-placehd, .c-treeview-check, .c-treeview-radio, .c-treeview-node, .c-treeview-icon {
+    display: inline-block;
+}
+
+.c-treeview-a {
+    height: 24px;
+    padding: 0 10px;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.c-treeview-child {
+    padding-left: 10px;
+}
+
+.c-treeview-select {
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #FFB951;
+    background-color: #FFE6B0;
+    padding: 0 8px;
+}
+
+.c-treeview-fold, .c-treeview-check, .c-treeview-radio, .c-treeview-picon, .c-treeview-cicon {
+    background-image: url(../images/treeview.png);
+    background-repeat: no-repeat;
+}
+
+.c-treeview-node {
+    color: #2b2b2b;
+    font-size: 12px;
+    font-weight: 100;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.c-treeview-fold, .c-treeview-placehd, .c-treeview-check, .c-treeview-radio, .c-treeview-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.c-treeview-fold, .c-treeview-placehd {
+    margin-right: 5px;
+}
+
+.c-treeview-fold {
+    background-position: -53px -18px;
+}
+
+.c-treeview-fold-open {
+    background-position: -53px 0;
+}
+
+.c-treeview-check {
+    background-position: 0 -17px;
+}
+
+.c-treeview-half-checked {
+    background-position: -40px -17px;
+}
+
+.c-treeview-checked {
+    background-position: -20px -17px;
+}
+
+.c-treeview-radio {
+    width: 13px;
+    height: 13px;
+    background-position: 0 -33px;
+    margin-right: 3px;
+}
+
+.c-treeview-radio-checked {
+    background-position: -14px -33px;
+}
+
+.c-treeview-icon {
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.c-treeview-picon-open {
+    background-position: -17px 0;
+}
+
+.c-treeview-cicon {
+    background-position: -39px 0;
+}
+
+.c-treeview-loading {
+    background: url(../images/loading.gif) no-repeat;
+}
+
+.c-treeview-disable .c-treeview-node {
+    color: #ccc;
+}
+
+.c-treeview-fold, .c-treeview-icon {
+    cursor: default;
+}
+
+.c-treeview-disable, .c-treeview-disable .c-treeview-fold, .c-treeview-disable .c-treeview-check, .c-treeview-disable .c-treeview-icon, .c-treeview-disable .c-treeview-node {
+    cursor: not-allowed;
+}
+
+.c-combotree-menu {
+    height: 250px;
+    overflow: auto;
+}

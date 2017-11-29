@@ -1,0 +1,58 @@
+.c-content-page {
+    margin: 0 30px;
+}
+
+.c-content-page .title {
+    height: 48px;
+    line-height: 48px;
+    overflow: hidden;
+}
+
+.c-content-page .btn-group {
+    float: right;
+    margin-top: -6px;
+    .btn-item {
+        margin-top: 10px;
+    }
+    .ivu-dropdown {
+        margin-left: -1px;
+        .ivu-btn {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+}
+
+.c-btn-group-list {
+    .ivu-dropdown-item {
+        padding: 0;
+    }
+    strong {
+        display: block;
+        padding: 7px 16px;
+        font-weight: 100;
+    }
+}
+
+.c-btn-group-list .c-content-page .title h3 {
+    color: rgba(0, 0, 0, .85);
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.c-content-page .content {
+    min-height: 540px;
+    padding: 30px 20px 60px;
+    background-color: #fff;
+    transition: box-shadow .3s;
+}
+
+.c-content-page .content-no-bg {
+    background-color: transparent;
+    padding: 0;
+}
+
+.c-content-page .content:hover {
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05);
+    border-color: transparent;
+}

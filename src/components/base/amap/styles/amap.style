@@ -1,0 +1,118 @@
+/*如果需要显示高德地图版权,请注释以下代码*/
+
+.amap-logo, .amap-copyright {
+    display: none;
+}
+
+.amap-copyright {
+    left: 200%;
+}
+
+.c-map-infowin .inner {
+    background-color: #fff;
+    padding-top: 1px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+// .c-map-infowin:after {
+//     position: relative;
+//     left: 50%;
+//     display: block;
+//     content: "";
+//     width: 0;
+//     height: 0;
+//     border: 7px solid transparent;
+//     border-top-color: #fff;
+//     margin-top: -2px;
+//     margin-left: -3px;
+// }
+.c-map-infowin .title {
+    height: 40px;
+    margin: 0 1px;
+    overflow: hidden;
+}
+
+.c-map-infowin .title h4 {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.c-map-infowin .close-win {
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.c-map-infowin .info-title {
+    background-color: #2d8cf0;
+}
+
+.c-map-infowin .success-title {
+    background-color: #19be6b;
+}
+
+.c-map-infowin .warning-title {
+    background-color: #ff9900;
+}
+
+.c-map-infowin .info-title h4, .c-map-infowin .info-title .close-win, .c-map-infowin .success-title h4, .c-map-infowin .success-title .close-win, .c-map-infowin .warning-title h4, .c-map-infowin .warning-title .close-win {
+    color: #fff;
+}
+
+.c-map-infowin .con {
+    min-height: 180px;
+}
+
+.c-map-infowin .detail-info {
+    min-height: 140px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 20px 15px;
+}
+
+.c-map-infowin .detail-footer {
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+.c-map-infowin .btn-group {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.c-map-infowin .btn-group:last-child {
+    margin-right: 0;
+}
+
+// .c-map-infowin-enter-active, .c-map-infowin-leave-active {
+//     transition: all .2s ease-in-out;
+// }
+// .c-map-infowin-enter, .c-map-infowin-leave-to {
+//     opacity: 0;
+//     transform: translateY(30px);
+// }
+.c-select-address {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    width: 460px;
+    margin-left: -230px;
+}
+
+.c-select-address .input-wrapper {
+    float: left;
+    width: 260px;
+    margin-right: 20px;
+}
+
+.c-select-address .btn-wrapper {
+    font-size: 0;
+}
+
+.c-select-address .ivu-btn {
+    margin-right: 5px;
+}

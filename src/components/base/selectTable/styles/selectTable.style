@@ -1,0 +1,15 @@
+.c-select-table-checkbox {
+    font-size: 0;
+    cursor: pointer;
+}
+
+.c-select-table-checkbox i {
+    color: #2d8cf0;
+    font-size: 16px;
+    margin-right: 10px;
+    vertical-align: -2px;
+}
+
+.c-select-table-checkbox span {
+    font-size: 12px;
+}

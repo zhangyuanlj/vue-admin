@@ -1,0 +1,71 @@
+@color: #2d8cf0;
+.c-spin, .c-spin-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.c-spin {
+    z-index: 999;
+}
+
+.c-spin-bg {
+    filter: blur(.7px);
+    opacity: .7;
+    background-color: #fff;
+}
+
+.c-spin .ivu-spin-fix {
+    background-color: transparent;
+}
+
+.c-spin-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 120px;
+    height: 80px;
+    margin-left: -60px;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.spinner {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.double-bounce1, .double-bounce2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: @color;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+    opacity: 0.6;
+}
+
+.double-bounce2 {
+    animation-delay: -1.0s;
+}
+
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+    }
+}
+
+.c-spin-text {
+    color: @color;
+    font-size: 12px;
+    margin-top: 10px;
+}

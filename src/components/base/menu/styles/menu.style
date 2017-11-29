@@ -1,0 +1,424 @@
+.c-menu .sub-menu, .c-icon-menu .sub-menu {
+    background-color: #1E222D;
+}
+
+.c-menu {
+    width: 240px;
+    padding-bottom: 40px;
+}
+
+.c-menu .menu-text, .c-icon-menu .menu-text {
+    display: block;
+    font-size: 0;
+    padding-left: 20px;
+}
+
+.c-menu .menu-text i, .c-menu .menu-text strong, .c-menu .menu-text span, .c-icon-menu .menu-text i, .c-icon-menu .menu-text strong, .c-icon-menu .menu-text span {
+    display: inline-block;
+}
+
+.c-menu .menu-text i, .c-menu .menu-text span, .c-icon-menu .menu-text i, .c-icon-menu .menu-text span {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c-menu .menu-text strong, .c-icon-menu .menu-text strong {
+    width: 140px;
+    height: 100%;
+    color: #fff;
+    font-weight: 100;
+    opacity: 0.5;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.c-menu .menu-text span, .c-icon-menu .menu-text span {
+    margin-left: 10px;
+}
+
+.c-menu .p-menu-close, .c-icon-menu .p-menu-close {
+    background-image: url('../images/p-menu-close.png');
+}
+
+.c-menu .p-menu-open, .c-icon-menu .p-menu-open {
+    background-image: url('../images/p-menu-open.png');
+}
+
+.c-menu .p-menu-loading, .c-icon-menu .p-menu-loading {
+    background-image: url('../images/loader.gif');
+}
+
+.c-menu .c-menu-close, .c-icon-menu .c-menu-close {
+    background-image: url('../images/c-menu-close.png');
+}
+
+.c-menu .c-menu-open, .c-icon-menu .c-menu-open {
+    background-image: url('../images/c-menu-open.png');
+}
+
+
+/*所有应用图标*/
+
+.c-menu .menu-text i.ams {
+    background-image: url('../images/ams.png');
+}
+
+.c-menu .menu-text i.ams-active {
+    background-image: url('../images/ams-active.png');
+}
+
+.c-icon-menu i.ams-big {
+    background-image: url('../images/ams-big.png');
+}
+
+.c-menu .menu-text i.chpp {
+    background-image: url('../images/chpp.png');
+}
+
+.c-menu .menu-text i.chpp-active {
+    background-image: url('../images/chpp-active.png');
+}
+
+.c-icon-menu i.chpp-big {
+    background-image: url('../images/chpp-big.png');
+}
+
+.c-menu .menu-text i.cms {
+    background-image: url('../images/cms.png');
+}
+
+.c-menu .menu-text i.cms-active {
+    background-image: url('../images/cms-active.png');
+}
+
+.c-icon-menu i.cms-big {
+    background-image: url('../images/cms-big.png');
+}
+
+.c-menu .menu-text i.crm {
+    background-image: url('../images/crm.png');
+}
+
+.c-menu .menu-text i.crm-active {
+    background-image: url('../images/crm-active.png');
+}
+
+.c-icon-menu i.crm-big {
+    background-image: url('../images/crm-big.png');
+}
+
+.c-menu .menu-text i.dcd {
+    background-image: url('../images/dcd.png');
+}
+
+.c-menu .menu-text i.dcd-active {
+    background-image: url('../images/dcd-active.png');
+}
+
+.c-icon-menu i.dcd-big {
+    background-image: url('../images/dcd-big.png');
+}
+
+.c-menu .menu-text i.ggwg {
+    background-image: url('../images/ggwg.png');
+}
+
+.c-menu .menu-text i.ggwg-active {
+    background-image: url('../images/ggwg-active.png');
+}
+
+.c-icon-menu i.ggwg-big {
+    background-image: url('../images/ggwg-big.png');
+}
+
+.c-menu .menu-text i.gzl {
+    background-image: url('../images/gzl.png');
+}
+
+.c-menu .menu-text i.gzl-active {
+    background-image: url('../images/gzl-active.png');
+}
+
+.c-icon-menu i.gzl-big {
+    background-image: url('../images/gzl-big.png');
+}
+
+.c-menu .menu-text i.jrxt {
+    background-image: url('../images/jrxt.png');
+}
+
+.c-menu .menu-text i.jrxt-active {
+    background-image: url('../images/jrxt-active.png');
+}
+
+.c-icon-menu i.jrxt-big {
+    background-image: url('../images/jrxt-big.png');
+}
+
+.c-menu .menu-text i.kcys {
+    background-image: url('../images/kcys.png');
+}
+
+.c-menu .menu-text i.kcys-active {
+    background-image: url('../images/kcys-active.png');
+}
+
+.c-icon-menu i.kcys-big {
+    background-image: url('../images/kcys-big.png');
+}
+
+.c-menu .menu-text i.qbgl {
+    background-image: url('../images/qbgl.png');
+}
+
+.c-menu .menu-text i.qbgl-active {
+    background-image: url('../images/qbgl-active.png');
+}
+
+.c-icon-menu i.qbgl-big {
+    background-image: url('../images/qbgl-big.png');
+}
+
+.c-menu .menu-text i.sjfx {
+    background-image: url('../images/sjfx.png');
+}
+
+.c-menu .menu-text i.sjfx-active {
+    background-image: url('../images/sjfx-active.png');
+}
+
+.c-icon-menu i.sjfx-big {
+    background-image: url('../images/sjfx-big.png');
+}
+
+.c-menu .menu-text i.third-party {
+    background-image: url('../images/third-party.png');
+}
+
+.c-menu .menu-text i.third-party-active {
+    background-image: url('../images/third-party-active.png');
+}
+
+.c-icon-menu i.third-party-big {
+    background-image: url('../images/third-party-big.png');
+}
+
+.c-menu .menu-text i.tms {
+    background-image: url('../images/tms.png');
+}
+
+.c-menu .menu-text i.tms-active {
+    background-image: url('../images/tms-active.png');
+}
+
+.c-icon-menu i.tms-big {
+    background-image: url('../images/tms-big.png');
+}
+
+.c-menu .menu-text i.sjfx {
+    background-image: url('../images/sjfx.png');
+}
+
+.c-menu .menu-text i.sjfx-active {
+    background-image: url('../images/sjfx-active.png');
+}
+
+.c-icon-menu i.sjfx-big {
+    background-image: url('../images/sjfx-big.png');
+}
+
+.c-menu .menu-text i.tywg {
+    background-image: url('../images/tywg.png');
+}
+
+.c-menu .menu-text i.tywg-active {
+    background-image: url('../images/tywg-active.png');
+}
+
+.c-icon-menu i.tywg-big {
+    background-image: url('../images/tywg-big.png');
+}
+
+.c-menu .menu-text i.xxzx {
+    background-image: url('../images/xxzx.png');
+}
+
+.c-menu .menu-text i.xxzx-active {
+    background-image: url('../images/xxzx-active.png');
+}
+
+.c-icon-menu i.xxzx-big {
+    background-image: url('../images/xxzx-big.png');
+}
+
+.c-menu .menu-text i.yhzx {
+    background-image: url('../images/yhzx.png');
+}
+
+.c-menu .menu-text i.yhzx-active {
+    background-image: url('../images/yhzx-active.png');
+}
+
+.c-icon-menu i.yhzx-big {
+    background-image: url('../images/yhzx-big.png');
+}
+
+.c-menu .menu-text i.yyfx {
+    background-image: url('../images/yyfx.png');
+}
+
+.c-menu .menu-text i.yyfx-active {
+    background-image: url('../images/yyfx-active.png');
+}
+
+.c-icon-menu i.yyfx-big {
+    background-image: url('../images/yyfx-big.png');
+}
+
+.c-menu .menu-text i.znkc {
+    background-image: url('../images/znkc.png');
+}
+
+.c-menu .menu-text i.znkc-active {
+    background-image: url('../images/znkc-active.png');
+}
+
+.c-icon-menu i.znkc-big {
+    background-image: url('../images/znkc-big.png');
+}
+
+.c-menu .menu-text i.ztjk {
+    background-image: url('../images/ztjk.png');
+}
+
+.c-menu .menu-text i.ztjk-active {
+    background-image: url('../images/ztjk-active.png');
+}
+
+.c-icon-menu i.ztjk-big {
+    background-image: url('../images/ztjk-big.png');
+}
+
+.c-menu .menu-text i.fms {
+    background-image: url('../images/caiwu.png');
+}
+
+.c-menu .menu-text i.fms-active {
+    background-image: url('../images/caiwu-active.png');
+}
+
+.c-icon-menu i.fms-big {
+    background-image: url('../images/caiwu-big.png');
+}
+
+.c-menu .p-menu-text, .c-menu .child-item-text, .c-menu .sub-menu-text, .c-icon-menu .p-menu-text, .c-icon-menu .child-item-text, .c-icon-menu .sub-menu-text {
+    height: 50px;
+    line-height: 50px;
+}
+
+.c-menu .p-menu-text, .c-icon-menu .p-menu-text {
+    font-size: 15px;
+    background-color: #393F4F;
+}
+
+.c-menu .p-menu-text-selected, .c-icon-menu .p-menu-text-selected {
+    background-color: #2E3442;
+}
+
+.c-menu .p-menu-text i, .c-menu .p-menu-text span, .c-icon-menu .p-menu-text i, .c-icon-menu .p-menu-text span {
+    vertical-align: 16px;
+}
+
+.c-menu .child-item-text, .c-icon-menu .child-item-text {
+    font-size: 14px;
+    background-color: #282D3A;
+}
+
+.c-menu .child-item-text i, .c-menu .child-item-text span, .c-icon-menu .child-item-text i, .c-icon-menu .child-item-text span {
+    vertical-align: 18px;
+}
+
+.c-menu .sub-menu-text, .c-icon-menu .sub-menu-text {
+    font-size: 13px;
+    border-left: 3px solid transparent;
+}
+
+.c-menu .sub-menu-text-selected, .c-icon-menu .sub-menu-text-selected {
+    border-left: 3px solid #D85A52;
+}
+
+.c-menu .sub-menu-text-selected strong, .c-icon-menu .sub-menu-text-selected strong {
+    opacity: 1;
+}
+
+.c-menu-switch {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    height: 40px;
+    background-color: #393F4F;
+    z-index: 200;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.c-menu-switch a {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    width: 24px;
+    height: 19px;
+    background: url('../images/menu-close.png') no-repeat;
+}
+
+.c-menu-switch a.open {
+    background: url('../images/menu-open.png') no-repeat;
+}
+
+.c-icon-menu {
+    width: 47px;
+    padding-bottom: 40px;
+}
+
+.c-icon-menu .icon-item {
+    position: relative;
+}
+
+.c-icon-menu .icon-item:hover {
+    background-color: #212530;
+}
+
+.c-icon-menu .icon-wrapper, .c-icon-menu .icon {
+    display: block;
+    width: 100%;
+    height: 45px;
+}
+
+.c-icon-menu .icon {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c-icon-menu .pop-menu {
+    position: absolute;
+    left: 47px;
+    width: 245px;
+    height: 270px;
+    background-color: #212530;
+    box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    z-index: 600;
+    display: none;
+}
+
+.c-icon-menu .pop-menu-loading {
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+    opacity: .5;
+    background: #393f4f url('../images/loader.gif') no-repeat 20px center;
+    padding-left: 50px;
+}

@@ -1,0 +1,32 @@
+.c-browser {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 415px;
+    height: 382px;
+    margin-left: -202px;
+    margin-top: -191px;
+    background: url('../images/browser-bg.png') no-repeat;
+}
+
+.c-browser h1 {
+    position: absolute;
+    width: 270px;
+    left: 50%;
+    top: 120px;
+    color: #4e4e4e;
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: -135px;
+}
+
+.c-browser a, .c-browser a:visited {
+    position: absolute;
+    left: 50%;
+    top: 190px;
+    display: block;
+    width: 80px;
+    height: 23px;
+    background: url('../images/browser-btn.png') no-repeat;
+    margin-left: -40px;
+}

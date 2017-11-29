@@ -1,0 +1,117 @@
+.c-pop-menu {
+    position: absolute;
+    padding: 0 5px 0 8px;
+    z-index: 1000;
+}
+
+.c-pop-menu-icon-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0px;
+    top: 8px;
+    border-width: 5px 5px 5px 0;
+    border-style: solid;
+    border-color: transparent;
+    border-right-color: hsla(0, 0%, 85%, .5);
+}
+
+.c-pop-menu-icon-arrow-left-center {
+    top: 50%;
+    margin-top: -5px;
+}
+
+.c-pop-menu-icon-arrow-left-bottom {
+    top: auto;
+    bottom: 8px;
+}
+
+.c-pop-menu-icon-arrow-bottom {
+    top: 100%;
+    left: 20px;
+    border-width: 5px 5px 0 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: hsla(0, 0%, 85%, .5);
+}
+
+.c-pop-menu-icon-arrow-bottom-center {
+    left: 50%;
+    margin-left: -5px;
+}
+
+.c-pop-menu-icon-arrow-bottom-right {
+    left: auto;
+    right: 20px;
+    margin-right: 5px;
+}
+
+.c-pop-menu-icon-arrow-right {
+    top: 8px;
+    left: auto;
+    right: 0px;
+    border-width: 5px 0 5px 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-right-color: hsla(0, 0%, 85%, .5);
+}
+
+.c-pop-menu-icon-arrow-right-center {
+    top: 50%;
+    margin-top: -5px;
+}
+
+.c-pop-menu-icon-arrow-right-bottom {
+    top: auto;
+    bottom: 8px;
+}
+
+.c-pop-menu-icon-arrow::after {
+    content: " ";
+    position: absolute;
+    left: -2px;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-left-width: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-right-color: #fff;
+}
+
+.c-pop-menu-icon-arrow-bottom::after {
+    border-width: 5px;
+    border-bottom-width: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: #fff;
+}
+
+.c-pop-menu-icon-arrow-right::after {
+    left:-5px;
+    border-width: 5px;
+    border-right-width: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-left-color: #fff;
+}
+
+.c-pop-menu-list {
+    width: 100%;
+    padding: 5px 5px 5px 8px;
+    white-space: nowrap;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+}
+
+.c-pop-menu-item {
+    line-height: 1.5;
+    border-bottom: 1px solid #e9eaec;
+    cursor: pointer;
+}
+
+.c-pop-menu-item:last-child {
+    border-bottom: 0;
+}

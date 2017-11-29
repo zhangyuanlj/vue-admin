@@ -1,0 +1,51 @@
+.c-pannel {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    transition: box-shadow .3s;
+}
+
+.c-pannel:hover {
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05);
+    border-color: transparent;
+}
+
+.c-pannel-title {
+    height: 48px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85);
+    border-bottom: 1px solid #e9e9e9;
+    padding: 0 20px;
+}
+
+.c-pannel-title .left {
+    float: left;
+}
+
+.c-pannel-title .left strong {
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.c-pannel-title .right {
+    float: right;
+}
+
+.c-pannel-title .right .icon-item {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.c-pannel-title .right .icon-item:last-child {
+    margin-right: 0;
+}
+
+.c-pannel-title .right strong {
+    font-weight: 100;
+}
+
+.c-pannel-con {
+    position: relative;
+    padding: 20px;
+}

@@ -1,0 +1,97 @@
+@import 'base.less';
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+label,
+textarea,
+p,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figure,
+figcaption,
+menu,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+strong,
+em {
+    font-weight: 600;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td,
+div {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+input,
+label {
+    vertical-align: middle;
+    letter-spacing: 0;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+* {
+    outline: none;
+}
+
+body {
+    font-size: @fontSize;
+    font-family: @fontFamily;
+    /*在谷歌浏览器中设置小于12号的字体*/
+    -webkit-text-size-adjust: none;
+    background-color: @background;
+}

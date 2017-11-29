@@ -1,0 +1,48 @@
+.c-page-tab {
+    height: 40px;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid #d8d8da;
+}
+
+.c-page-tab a, .c-page-tab a:visited {
+    float: left;
+    display: block;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #616161;
+    font-size: 0;
+    border-right: 1px solid #d8d8da;
+}
+
+.c-page-tab .ivu-dropdown-rel {
+    height: 40px;
+}
+
+.c-page-tab a.current {
+    background-color: #fff;
+}
+.c-page-tab span, .c-page-tab .more-item-text{
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.c-page-tab span {
+    width: 60px;
+    font-size: 12px;
+}
+.c-page-tab .more-item-text{
+    width:140px;
+}
+.c-page-tab .ivu-icon {
+    font-size: 12px;
+    margin-left: 3px;
+    vertical-align: 15px;
+}
+
+.c-page-tab .more .ivu-icon {
+    font-size: 16px;
+    vertical-align: 13px;
+}

@@ -1,0 +1,9 @@
+.c-query-form {
+    margin-bottom: 30px;
+    .btn {
+        margin-top: 20px;
+    }
+    .ivu-btn {
+        float: right;
+    }
+}

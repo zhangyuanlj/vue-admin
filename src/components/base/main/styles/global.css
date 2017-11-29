@@ -1,0 +1,61 @@
+/*工具类*/
+.g-full-screen {
+  height: 100%;
+  overflow: hidden;
+}
+.g-relative {
+  position: relative;
+}
+.g-absolute {
+  position: absolute;
+}
+.g-layer-cen,
+.g-layer-cen .inner {
+  position: relative;
+  float: left;
+}
+.g-layer-cen {
+  left: 50%;
+}
+.g-layer-cen .inner {
+  left: -50%;
+  height: 1%;
+  overflow: hidden;
+}
+.g-text-lf {
+  text-align: left;
+}
+.g-text-cen {
+  text-align: center;
+}
+.g-text-rg {
+  text-align: right;
+}
+.g-fl {
+  float: left;
+}
+.g-fr {
+  float: right;
+}
+.g-parent-clear,
+.g-grid .rows {
+  zoom: 1;
+}
+.g-parent-clear:after,
+.g-grid .rows:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.g-clear-fl {
+  clear: both;
+  *height: 0px;
+  *font-size: 0px;
+}
+.g-layer-hidden {
+  visibility: hidden;
+}
+.g-layer-none {
+  display: none;
+}

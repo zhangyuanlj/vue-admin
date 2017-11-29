@@ -1,0 +1,48 @@
+.c-basic-table .page-container {
+    margin: 20px 0;
+}
+
+.c-basic-table .page-total {
+    float: left;
+    line-height: 32px;
+}
+
+.c-basic-table .page-wrapper {
+    float: right;
+}
+
+.c-table-btn {
+    font-size: 0;
+}
+
+.c-table-btn .item {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.c-table-btn .item-last {
+    margin-right: 0;
+}
+
+.c-table-btn .item-disable, .c-table-btn .item-disable:visited, .c-table-btn .item-disable a, .c-table-btn .item-disable a:visited{
+    color: #bbbec4;
+}
+
+.c-table-btn .split-line {
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #e8e8e8;
+    margin-right: 10px;
+    vertical-align: -1px;
+}
+
+.c-table-btn-item .ivu-dropdown-item {
+    padding: 0;
+}
+
+.c-table-btn-item .dropdown-item {
+    display: block;
+    padding: 7px 16px;
+    font-weight: 100;
+}
