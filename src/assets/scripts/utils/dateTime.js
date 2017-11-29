@@ -3,7 +3,7 @@
  * author:张渊
  * modifyTime:2017-6-4
  */
-import $ from 'jQuery';
+import Zepto from 'jQuery';
 class DateTime {
     static getWeek(dayIndex) {
         var week = ["星期天", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
@@ -11,21 +11,20 @@ class DateTime {
     }
     /**
      * 获取日期对象
-     * @options string DateTime 标准的日期时间字符串 2017-06-04 15:30:02
+     * @options string dateTime 标准的日期时间字符串 2017-06-04 15:30:02
      * @options integer dayCount dayCount天后的日期时间信息,0为当天,负数则向前
      */
     static getDateObj(options) {
         let date = null;
         let defaults = {
-            DateTime: "",
+            dateTime: "",
             dayCount: 0
         };
         $.extend(defaults, options);
-        let DateTime = defaults.DateTime;
+        let dateTime = defaults.dateTime;
         let dayCount = defaults.dayCount;
-        if (DateTime != "") {
-            DateTime.replace("/-/g", "/");
-            date = new Date(DateTime);
+        if (dateTime != "") {
+            date = new Date(Date.parse(dateTime.replace(/-/g, "/")));
         } else {
             date = new Date();
         }
@@ -49,12 +48,12 @@ class DateTime {
         var second = date.getSeconds();
         return {
             year: year,
-            month: month,
-            day: day,
+            month: month.toString().length === 1 ? '0' + month : month,
+            day: day.toString().length === 1 ? '0' + day : day,
             week: DateTime.getWeek(dayIndex),
-            hours: hours,
-            minute: minute,
-            second: second
+            hours: hours.toString().length === 1 ? '0' + hours : hours,
+            minute: minute.toString().length === 1 ? '0' + minute : minute,
+            second: second.toString().length === 1 ? '0' + second : second
         };
     }
     /**
@@ -95,7 +94,7 @@ class DateTime {
         }
         for (var k in o) {
             if (new RegExp("(" + k + ")").test(format)) {
-                ret = ret.replace(RegExp.$1, RegExp.$1.length == 1 ? o[k] : ("00" + o[k]).substr(("" + o[k]).length));         
+                ret = ret.replace(RegExp.$1, RegExp.$1.length == 1 ? o[k] : ("00" + o[k]).substr(("" + o[k]).length));
             }
         }
         if (/(W)/.test(format)) {
@@ -111,7 +110,7 @@ class DateTime {
      */
     static showCurrentDateTime(options) {
         let defaults = {
-            $display: "#DateTime",
+            $display: "#dateTime",
             formate: "YYYY-MM-DD",
             autoUpdate: false
         };
@@ -142,11 +141,11 @@ class DateTime {
      */
     static getDateScope(start, end) {
         let startDate = DateTime.getDateObj({
-            DateTime: start,
+            dateTime: start,
             dayCount: null
         });
         let endDate = DateTime.getDateObj({
-            DateTime: end,
+            dateTime: end,
             dayCount: null
         });
         let ret = [];
@@ -159,7 +158,8 @@ class DateTime {
             ret.push({
                 year: year,
                 month: month,
-                day: day
+                day: day,
+                str: `${year}-${month}-${day}`
             });
             startDate.setDate(startDate.getDate() + 1);
         }
@@ -199,9 +199,9 @@ class DateTime {
      * @returns 传入日期时间与当前日期时间的差值
      * @memberof DateTime
      */
-    static getDifference(dateTime){
+    static getDifference(dateTime) {
         let date = DateTime.getDateObj({
-            DateTime: dateTime,
+            dateTime: dateTime,
             dayCount: null
         });
         let currentDate = DateTime.getDateObj();
