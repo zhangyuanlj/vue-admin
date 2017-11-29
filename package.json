@@ -1,7 +1,7 @@
 {
-  "name": "monitor-project",
+  "name": "admin-project",
   "version": "1.0.0",
-  "description": "在途监控",
+  "description": "基于vue、iview的后端管理系统",
   "main": "modules/index/index.js",
   "scripts": {
     "init": "webpack --progress --config webpack.dev.config.js",
